@@ -21,7 +21,7 @@ vscode" video
 
 Compiling the Shooter Project:
 
-1.Cd to the MAZE Folder
+1.Cd to the Shooter Folder
 2.Run: ‘make -f Makefile’
 3.Run: ‘./shooter’
 

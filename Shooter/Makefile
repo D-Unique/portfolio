@@ -1,10 +1,9 @@
 build:
-	 gcc -Wall -Werror -Wextra -pedantic ./src/*.c -I ./include/SDL2 -lSDL2main -lSDL2 -lm -o maze
+	 gcc -Wall -Werror -Wextra -pedantic ./src/*.c -I ./include/SDL2 -lSDL2main -lSDL2 -lm -o shooter
 
 run:
-	./maze;
+	./shooter;
 
 clean:
-	rm maze;
+	rm shooter;
 
-#-LC:\MinGW\lib -lmingw32 
